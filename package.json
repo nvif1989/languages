@@ -1,0 +1,31 @@
+{
+  "name": "@nvif1989/languages",
+  "version": "0.0.1",
+  "description": "Language abbreviations in Nutritive Value of Indian Foods 1989.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvif1989/languages.git"
+  },
+  "keywords": [
+    "nvif",
+    "1989",
+    "language",
+    "abbreviation",
+    "nutritive",
+    "value",
+    "indian",
+    "food",
+    "composition",
+    "table"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nvif1989/languages/issues"
+  },
+  "homepage": "https://github.com/nvif1989/languages#readme"
+}
