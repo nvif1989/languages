@@ -1,6 +1,6 @@
 {
   "name": "@nvif1989/languages",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Language abbreviations in Nutritive Value of Indian Foods 1989.",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,9 @@
   "homepage": "https://github.com/nvif1989/languages#readme",
   "devDependencies": {
     "csv": "^5.3.1"
+  },
+  "dependencies": {
+    "lunr": "^2.3.8",
+    "sql-extra": "^0.1.13"
   }
 }
