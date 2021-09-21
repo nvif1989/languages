@@ -1,9 +1,12 @@
-const csv = require('csv');
 const fs = require('fs');
 const os = require('os');
+const csvParse = require('csv-parse');
+
+
+
 
 var map = new Map();
-var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
+var stream = fs.createReadStream('index.csv').pipe(csvParse({columns: true, comment: '#'}));
 stream.on('data', (r) => {
   map.set(r.abbr.replace(/\W/g, '').toLowerCase(), {abbr: r.abbr, lang: r.lang});
 });
